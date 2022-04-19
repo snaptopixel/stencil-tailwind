@@ -30,6 +30,7 @@ export class Site {
         <h1 class='text-4xl font-black text-purple-700'>Hello World</h1>
         <p class='italic text-purple-400'>Make changes anywhere and watch your browser update</p>
         <span class={`${customCSS} font-bold uppercase`}>Much Wow</span>
+        <styled-component class='mt-4' />
       </CenteredBox>
     )
   }
