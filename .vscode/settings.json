@@ -1,0 +1,18 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "[css]": {
+      "editor.formatOnSave": true
+    },
+    "[postcss]": {
+      "editor.formatOnSave": true
+    },
+    "[json]": {
+      "editor.formatOnSave": true
+    },
+    "[md]": {
+      "editor.formatOnSave": true
+    },
+  }
+  

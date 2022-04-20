@@ -29,4 +29,3 @@ UserInterfaceState.xcuserstate
 # Various generated files
 src/**/readme.md
 components.d.ts
-firebase-adminsdk.json
