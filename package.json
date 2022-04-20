@@ -4,13 +4,13 @@
   "version": "0.0.1",
   "description": "Using Tailwind with Stencil",
   "scripts": {
-    "build": "NODE_ENV=production run-s build:tailwind build:stencil",
+    "build": "NODE_ENV=production run-s clean build:tailwind build:stencil",
     "start": "NODE_ENV=development npm-run-all clean -p dev:*",
     "clean": "rm -rf www",
     "dev:stencil": "stencil build --dev --watch --serve",
     "dev:tailwind": "tailwindcss -i ./src/all.pcss -o ./www/tailwind.css --watch",
     "build:stencil": "stencil build",
-    "build:tailwind": "tailwindcss -i ./src/all.pcss -o ./www/tailwind.css",
+    "build:tailwind": "tailwindcss -i ./src/all.pcss -o ./www/tailwind.css --minify",
     "prepare": "husky install",
     "lint": "eslint 'src/**/*{.tsx,.ts}'"
   },
